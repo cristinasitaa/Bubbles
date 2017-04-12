@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="Bubbles" customModuleProvider="target">
+            <connections>
+                <outlet property="floatingView" destination="bnJ-Kg-7Pv" id="geg-8k-3DL"/>
+                <outlet property="view" destination="iN0-l3-epB" id="Ca3-6f-0aD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="URf-hQ-Yo3">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bnJ-Kg-7Pv" customClass="CSFloatingView" customModule="Bubbles" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="166" width="375" height="312"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="secondaryColor">
+                            <color key="value" red="0.41568627450000001" green="0.64705882349999999" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="URf-hQ-Yo3" secondAttribute="bottom" id="2DC-rf-FjH"/>
+                <constraint firstAttribute="trailing" secondItem="bnJ-Kg-7Pv" secondAttribute="trailing" id="3Sp-eX-tqa"/>
+                <constraint firstItem="bnJ-Kg-7Pv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Dcb-DJ-30d"/>
+                <constraint firstItem="URf-hQ-Yo3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="W0O-sK-n6I"/>
+                <constraint firstItem="URf-hQ-Yo3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pcW-B6-XTr"/>
+                <constraint firstItem="bnJ-Kg-7Pv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="166" id="qDp-BL-6kl"/>
+                <constraint firstAttribute="trailing" secondItem="URf-hQ-Yo3" secondAttribute="trailing" id="rEm-S1-2wB"/>
+                <constraint firstAttribute="bottom" secondItem="bnJ-Kg-7Pv" secondAttribute="bottom" constant="189" id="srt-j6-Zst"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackgroundImage" width="375" height="667"/>
+    </resources>
+</document>
