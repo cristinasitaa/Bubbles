@@ -78,6 +78,7 @@ open class CSBubbleNode: CSFloatingNode {
             if children.name == "innerLabel" {
                 let childNodeLabel = children as! SKLabelNode
                 childNodeLabel.fontColor = secondaryColor
+                NotificationCenter.default.post(name: NSNotification.Name(rawValue: "BubbleWasSelected"), object: childNodeLabel.text)
             }
         }
 
@@ -93,6 +94,7 @@ open class CSBubbleNode: CSFloatingNode {
             if children.name == "innerLabel" {
                 let childNodeLabel = children as! SKLabelNode
                 childNodeLabel.fontColor = self.primaryColor
+                NotificationCenter.default.post(name: NSNotification.Name(rawValue: "BubbleWasDeselected"), object: childNodeLabel.text)
             }
         }
 

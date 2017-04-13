@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.bubbleWasSelected), name: NSNotification.Name(rawValue: "BubbleWasSelected"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.bubbleWasDeselected), name: NSNotification.Name(rawValue: "BubbleWasDeselected"), object: nil)
    
     }
     
@@ -35,6 +37,14 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func bubbleWasSelected(notification: NSNotification) {
+        print(notification.object as! String)
+    }
+    
+    func bubbleWasDeselected(notification: NSNotification) {
+        print(notification.object as! String)
     }
 
 
