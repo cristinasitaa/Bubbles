@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import SpriteKit
 
-@IBDesignable class CSBubblesView: UIView {
+@IBDesignable open class CSBubblesView: UIView {
     
     public var floatingView = SKView()
     public var floatingCollectionScene : CSBubblesScene!
@@ -36,11 +36,11 @@ import SpriteKit
         super.init(frame: frame)
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
     }
     
-    override func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         super.draw(rect)
         self.floatingView.frame = self.bounds
         self.addSubview(self.floatingView)

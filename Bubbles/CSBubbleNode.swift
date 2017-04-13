@@ -12,7 +12,7 @@ import SpriteKit
 
 //import CSFloatingCollection
 
-class CSBubbleNode: CSFloatingNode {
+open class CSBubbleNode: CSFloatingNode {
     var labelNode = SKLabelNode(fontNamed: "Arial")
     var messageNode = SKLabelNode(fontNamed: "Arial")
     var message : String!
@@ -71,7 +71,7 @@ class CSBubbleNode: CSFloatingNode {
     }
 
     
-    override func selectingAnimation() -> SKAction? {
+    override open func selectingAnimation() -> SKAction? {
         removeAction(forKey: CSBubbleNode.removingKey)
     
         for children in self.messageNode.children {
@@ -87,7 +87,7 @@ class CSBubbleNode: CSFloatingNode {
         return SKAction.scale(to: 2, duration: 0.2)
     }
     
-    override func normalizeAnimation() -> SKAction? {
+    override open func normalizeAnimation() -> SKAction? {
         removeAction(forKey: CSBubbleNode.removingKey)
         for children in self.messageNode.children {
             if children.name == "innerLabel" {
@@ -102,12 +102,12 @@ class CSBubbleNode: CSFloatingNode {
         return SKAction.scale(to: 1, duration: 0.2)
     }
     
-    override func removeAnimation() -> SKAction? {
+    override open func removeAnimation() -> SKAction? {
         removeAction(forKey: CSBubbleNode.removingKey)
         return SKAction.fadeOut(withDuration: 0.2)
     }
     
-    override func removingAnimation() -> SKAction {
+    override open func removingAnimation() -> SKAction {
         let pulseUp = SKAction.scale(to: xScale + 0.13, duration: 0)
         let pulseDown = SKAction.scale(to: xScale, duration: 0.3)
         let pulse = SKAction.sequence([pulseUp, pulseDown])

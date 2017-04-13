@@ -18,11 +18,11 @@ extension CGFloat {
     }
 }
 
-class CSBubblesScene: CSFloatingCollectionScene {
+open class CSBubblesScene: CSFloatingCollectionScene {
     var bottomOffset: CGFloat = 0
     var topOffset: CGFloat = 0
     
-    override func didMove(to view: SKView) {
+    override open func didMove(to view: SKView) {
         super.didMove(to: view)
         configure()
     }
@@ -41,7 +41,7 @@ class CSBubblesScene: CSFloatingCollectionScene {
         magneticField.position = CGPoint(x: frame.size.width / 2, y: frame.size.height / 2 + bottomOffset / 2 - topOffset)
     }
     
-    override func addChild(_ node: SKNode) {
+    override open func addChild(_ node: SKNode) {
         if node is CSBubbleNode {
             var x = CGFloat.random(min: -bottomOffset, max: -node.frame.size.width)
             let y = CGFloat.random(
