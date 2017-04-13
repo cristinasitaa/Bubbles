@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="Bubbles" customModuleProvider="target">
             <connections>
-                <outlet property="floatingView" destination="bnJ-Kg-7Pv" id="geg-8k-3DL"/>
+                <outlet property="bubblesView" destination="bnJ-Kg-7Pv" id="qdN-ko-6Lg"/>
                 <outlet property="view" destination="iN0-l3-epB" id="Ca3-6f-0aD"/>
             </connections>
         </placeholder>
@@ -23,15 +23,15 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="URf-hQ-Yo3">
                     <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                 </imageView>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bnJ-Kg-7Pv" customClass="CSFloatingView" customModule="Bubbles" customModuleProvider="target">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bnJ-Kg-7Pv" customClass="CSBubblesView" customModule="Bubbles" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="166" width="375" height="312"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
-                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="value" red="0.92549019610000005" green="0.098039215690000001" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                         </userDefinedRuntimeAttribute>
                         <userDefinedRuntimeAttribute type="color" keyPath="secondaryColor">
-                            <color key="value" red="0.41568627450000001" green="0.64705882349999999" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>

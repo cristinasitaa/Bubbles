@@ -17,7 +17,7 @@
 		96A51C881E9D3998009C9A2E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A51C871E9D3998009C9A2E /* ViewController.xib */; };
 		96A51C8B1E9D3B7E009C9A2E /* CSFloatingCollectionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A51C891E9D3B7E009C9A2E /* CSFloatingCollectionScene.swift */; };
 		96A51C8C1E9D3B7E009C9A2E /* CSFloatingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A51C8A1E9D3B7E009C9A2E /* CSFloatingNode.swift */; };
-		96DA87681E9E45D8005004FC /* CSFloatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DA87671E9E45D8005004FC /* CSFloatingView.swift */; };
+		96DA87681E9E45D8005004FC /* CSBubblesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DA87671E9E45D8005004FC /* CSBubblesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		96A51C871E9D3998009C9A2E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		96A51C891E9D3B7E009C9A2E /* CSFloatingCollectionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSFloatingCollectionScene.swift; sourceTree = "<group>"; };
 		96A51C8A1E9D3B7E009C9A2E /* CSFloatingNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSFloatingNode.swift; sourceTree = "<group>"; };
-		96DA87671E9E45D8005004FC /* CSFloatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSFloatingView.swift; sourceTree = "<group>"; };
+		96DA87671E9E45D8005004FC /* CSBubblesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSBubblesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 				96A51C811E9D38AF009C9A2E /* CSBubbleNode.swift */,
 				96A51C821E9D38AF009C9A2E /* CSBubblesScene.swift */,
 				96A51C831E9D38AF009C9A2E /* SKLabelNode+Extensions.swift */,
-				96DA87671E9E45D8005004FC /* CSFloatingView.swift */,
+				96DA87671E9E45D8005004FC /* CSBubblesView.swift */,
 			);
 			name = BubblesSource;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 				96A51C8C1E9D3B7E009C9A2E /* CSFloatingNode.swift in Sources */,
 				96A51C721E9D383E009C9A2E /* ViewController.swift in Sources */,
 				96A51C8B1E9D3B7E009C9A2E /* CSFloatingCollectionScene.swift in Sources */,
-				96DA87681E9E45D8005004FC /* CSFloatingView.swift in Sources */,
+				96DA87681E9E45D8005004FC /* CSBubblesView.swift in Sources */,
 				96A51C851E9D38AF009C9A2E /* CSBubblesScene.swift in Sources */,
 				96A51C861E9D38AF009C9A2E /* SKLabelNode+Extensions.swift in Sources */,
 				96A51C701E9D383E009C9A2E /* AppDelegate.swift in Sources */,

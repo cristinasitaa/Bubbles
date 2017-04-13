@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import SpriteKit
 
-@IBDesignable class CSFloatingView: UIView {
+@IBDesignable class CSBubblesView: UIView {
     
     public var floatingView = SKView()
     public var floatingCollectionScene : CSBubblesScene!
@@ -42,14 +42,16 @@ import SpriteKit
     
     override func draw(_ rect: CGRect) {
         super.draw(rect)
-        self.floatingView.frame = CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height)
+        self.floatingView.frame = self.bounds
         self.addSubview(self.floatingView)
         
         self.floatingView.allowsTransparency = true
         self.floatingView.backgroundColor = UIColor.clear
         
-        self.floatingCollectionScene = CSBubblesScene(size: self.floatingView.bounds.size)
+        self.floatingCollectionScene = CSBubblesScene(size: self.bounds.size)
         self.floatingView.presentScene(floatingCollectionScene)
+        
     }
+    
 
 }
