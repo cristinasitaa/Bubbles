@@ -11,13 +11,13 @@
 		96A51C721E9D383E009C9A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A51C711E9D383E009C9A2E /* ViewController.swift */; };
 		96A51C771E9D383E009C9A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A51C761E9D383E009C9A2E /* Assets.xcassets */; };
 		96A51C7A1E9D383E009C9A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A51C781E9D383E009C9A2E /* LaunchScreen.storyboard */; };
-		96A51C841E9D38AF009C9A2E /* CSBubbleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A51C811E9D38AF009C9A2E /* CSBubbleNode.swift */; };
-		96A51C851E9D38AF009C9A2E /* CSBubblesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A51C821E9D38AF009C9A2E /* CSBubblesScene.swift */; };
-		96A51C861E9D38AF009C9A2E /* SKLabelNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A51C831E9D38AF009C9A2E /* SKLabelNode+Extensions.swift */; };
 		96A51C881E9D3998009C9A2E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A51C871E9D3998009C9A2E /* ViewController.xib */; };
-		96A51C8B1E9D3B7E009C9A2E /* CSFloatingCollectionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A51C891E9D3B7E009C9A2E /* CSFloatingCollectionScene.swift */; };
-		96A51C8C1E9D3B7E009C9A2E /* CSFloatingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A51C8A1E9D3B7E009C9A2E /* CSFloatingNode.swift */; };
-		96DA87681E9E45D8005004FC /* CSBubblesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DA87671E9E45D8005004FC /* CSBubblesView.swift */; };
+		96FB02111E9F9C090018D086 /* CSBubbleNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB020B1E9F9C090018D086 /* CSBubbleNode.swift */; };
+		96FB02121E9F9C090018D086 /* CSBubblesScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB020C1E9F9C090018D086 /* CSBubblesScene.swift */; };
+		96FB02131E9F9C090018D086 /* CSBubblesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB020D1E9F9C090018D086 /* CSBubblesView.swift */; };
+		96FB02141E9F9C090018D086 /* CSFloatingCollectionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB020E1E9F9C090018D086 /* CSFloatingCollectionScene.swift */; };
+		96FB02151E9F9C090018D086 /* CSFloatingNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB020F1E9F9C090018D086 /* CSFloatingNode.swift */; };
+		96FB02161E9F9C090018D086 /* SKLabelNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FB02101E9F9C090018D086 /* SKLabelNode+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		96A51C761E9D383E009C9A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A51C791E9D383E009C9A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96A51C7B1E9D383E009C9A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96A51C811E9D38AF009C9A2E /* CSBubbleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSBubbleNode.swift; sourceTree = "<group>"; };
-		96A51C821E9D38AF009C9A2E /* CSBubblesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSBubblesScene.swift; sourceTree = "<group>"; };
-		96A51C831E9D38AF009C9A2E /* SKLabelNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+Extensions.swift"; sourceTree = "<group>"; };
 		96A51C871E9D3998009C9A2E /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		96A51C891E9D3B7E009C9A2E /* CSFloatingCollectionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSFloatingCollectionScene.swift; sourceTree = "<group>"; };
-		96A51C8A1E9D3B7E009C9A2E /* CSFloatingNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSFloatingNode.swift; sourceTree = "<group>"; };
-		96DA87671E9E45D8005004FC /* CSBubblesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSBubblesView.swift; sourceTree = "<group>"; };
+		96FB020B1E9F9C090018D086 /* CSBubbleNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSBubbleNode.swift; sourceTree = "<group>"; };
+		96FB020C1E9F9C090018D086 /* CSBubblesScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSBubblesScene.swift; sourceTree = "<group>"; };
+		96FB020D1E9F9C090018D086 /* CSBubblesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSBubblesView.swift; sourceTree = "<group>"; };
+		96FB020E1E9F9C090018D086 /* CSFloatingCollectionScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSFloatingCollectionScene.swift; sourceTree = "<group>"; };
+		96FB020F1E9F9C090018D086 /* CSFloatingNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSFloatingNode.swift; sourceTree = "<group>"; };
+		96FB02101E9F9C090018D086 /* SKLabelNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,12 @@
 		96A51C6E1E9D383E009C9A2E /* Bubbles */ = {
 			isa = PBXGroup;
 			children = (
-				96DA87661E9E41A0005004FC /* BubblesSource */,
+				96FB020B1E9F9C090018D086 /* CSBubbleNode.swift */,
+				96FB020C1E9F9C090018D086 /* CSBubblesScene.swift */,
+				96FB020D1E9F9C090018D086 /* CSBubblesView.swift */,
+				96FB020E1E9F9C090018D086 /* CSFloatingCollectionScene.swift */,
+				96FB020F1E9F9C090018D086 /* CSFloatingNode.swift */,
+				96FB02101E9F9C090018D086 /* SKLabelNode+Extensions.swift */,
 				96A51C6F1E9D383E009C9A2E /* AppDelegate.swift */,
 				96A51C711E9D383E009C9A2E /* ViewController.swift */,
 				96A51C871E9D3998009C9A2E /* ViewController.xib */,
@@ -75,19 +80,6 @@
 				96A51C7B1E9D383E009C9A2E /* Info.plist */,
 			);
 			path = Bubbles;
-			sourceTree = "<group>";
-		};
-		96DA87661E9E41A0005004FC /* BubblesSource */ = {
-			isa = PBXGroup;
-			children = (
-				96A51C891E9D3B7E009C9A2E /* CSFloatingCollectionScene.swift */,
-				96A51C8A1E9D3B7E009C9A2E /* CSFloatingNode.swift */,
-				96A51C811E9D38AF009C9A2E /* CSBubbleNode.swift */,
-				96A51C821E9D38AF009C9A2E /* CSBubblesScene.swift */,
-				96A51C831E9D38AF009C9A2E /* SKLabelNode+Extensions.swift */,
-				96DA87671E9E45D8005004FC /* CSBubblesView.swift */,
-			);
-			name = BubblesSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,14 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96A51C841E9D38AF009C9A2E /* CSBubbleNode.swift in Sources */,
-				96A51C8C1E9D3B7E009C9A2E /* CSFloatingNode.swift in Sources */,
 				96A51C721E9D383E009C9A2E /* ViewController.swift in Sources */,
-				96A51C8B1E9D3B7E009C9A2E /* CSFloatingCollectionScene.swift in Sources */,
-				96DA87681E9E45D8005004FC /* CSBubblesView.swift in Sources */,
-				96A51C851E9D38AF009C9A2E /* CSBubblesScene.swift in Sources */,
-				96A51C861E9D38AF009C9A2E /* SKLabelNode+Extensions.swift in Sources */,
+				96FB02131E9F9C090018D086 /* CSBubblesView.swift in Sources */,
+				96FB02141E9F9C090018D086 /* CSFloatingCollectionScene.swift in Sources */,
+				96FB02111E9F9C090018D086 /* CSBubbleNode.swift in Sources */,
+				96FB02121E9F9C090018D086 /* CSBubblesScene.swift in Sources */,
 				96A51C701E9D383E009C9A2E /* AppDelegate.swift in Sources */,
+				96FB02161E9F9C090018D086 /* SKLabelNode+Extensions.swift in Sources */,
+				96FB02151E9F9C090018D086 /* CSFloatingNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
