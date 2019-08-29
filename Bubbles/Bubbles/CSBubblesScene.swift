@@ -28,7 +28,7 @@ open class CSBubblesScene: CSFloatingCollectionScene {
     }
     
     fileprivate func configure() {
-        backgroundColor = SKColor.init(colorLiteralRed: 0, green: 0, blue: 0, alpha: 0.00001)
+        backgroundColor = SKColor(red: 0, green: 0, blue: 0, alpha: 0.00001)
         scaleMode = .aspectFill
         
         allowMultipleSelection = true
