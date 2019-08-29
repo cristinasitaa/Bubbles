@@ -30,9 +30,9 @@ open class CSFloatingNode: SKShapeNode {
         }
     }
     
-    open static let removingKey = "action.removing"
-    open static let selectingKey = "action.selecting"
-    open static let normalizeKey = "action.normalize"
+    public static let removingKey = "action.removing"
+    public static let selectingKey = "action.selecting"
+    public static let normalizeKey = "action.normalize"
     
     fileprivate func stateChaged() {
         var action: SKAction?

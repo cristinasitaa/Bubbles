@@ -39,11 +39,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func bubbleWasSelected(notification: NSNotification) {
+    @objc func bubbleWasSelected(notification: NSNotification) {
         print(notification.object as! String)
     }
     
-    func bubbleWasDeselected(notification: NSNotification) {
+    @objc func bubbleWasDeselected(notification: NSNotification) {
         print(notification.object as! String)
     }
 
